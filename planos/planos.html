@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossos Planos</title>
+    <link rel="stylesheet" href="planos.css">
 </head>
 
 
 <body>
     <main>
-        <section class="cabecario-planos">
-            <h1 class="titulo-planos">É fácil alugar pela 4Cars!</h1>
+        <section class="cabecalho-planos">
+            <h1>É fácil alugar pela 4Cars!</h1>
             <ol>
                 <li>Seja aprovado na UBER ou 99</li>
                 <li>Escolha seu carro</li>
@@ -21,75 +22,104 @@
                 <li>Comece a rodar</li>
             </ol>
         </section>
-        <section class="escolha-carro">
-            <h2>Escolha seu carro</h2>
-            <div class="plano-popular">
-                <h3>Carros Populares</h3>
-                <h4>Hatch e Sedan 1.0 | 1.3 |1.5</h4>
-                <img src="./img/carros-popular.png" alt="carro Argo vermelho e carro Logan cinza escuro">
-                <p>Hatch: Fiat Argo | Volkswagem Gol | Fiat Uno | ou similares</p>
-                <p>Sedan: Renault Logan | Volkswagen Voyage | Chevrolet Prisma | ou similares </p>
+        <h2>Escolha seu carro</h2>
+        <section class="carros-planos">
+            <h3>Carros Populares</h3>
+            <h4>Hatch e Sedan 1.0 | 1.3 |1.5</h4>
+            <img class="carros-planos-imagem" src="./img/carros-popular.png"
+                alt="carro Argo vermelho e carro Logan cinza escuro">
+            <p>Hatch: Fiat Argo | Volkswagem Gol | Fiat Uno | ou similares</p>
+            <p>Sedan: Renault Logan | Volkswagen Voyage | Chevrolet Prisma | ou similares </p>
+            <div class="carros-items">
                 <ul>
                     <li>
-                        <img src="./img/porta-do-carro.png" alt="icone porta do carro">
+                        <img class="icones-carros" src="./img/porta-do-carro.png" alt="icone porta do carro">
                         5 Portas
                     </li>
                     <li>
-                        <img src="./img/ar-condicionado.png" alt="icone ar condicionado">
+                        <img class="icones-carros" src="./img/ar-condicionado.png" alt="icone ar condicionado">
                         Ar condicionado
                     </li>
                     <li>
-                        <img src="./img/passageiro.png" alt="passageiros">
+                        <img class="icones-carros" src="./img/passageiro.png" alt="passageiros">
                         5 lugares
                     </li>
                     <li>
-                        <img src="./img/volante.png" alt="icone direção">
+                        <img class="icones-carros" src="./img/volante.png" alt="icone direção">
                         Direção Hdráulica
                     </li>
                     <li>
-                        <img src="./img/airbag.png" alt="icone air-bag">
+                        <img class="icones-carros" src="./img/airbag.png" alt="icone air-bag">
                         Air Bag
                     </li>
-                    <li>Transmissão Manual</li>
+                    <li>
+                        <img class="icones-carros" src="./img/transmissao.png" alt="icone transmissao">
+                        Transmissão Manual
+                    </li>
                 </ul>
-                <table>
-                    <tr>
-                        <th>A partir de</th>
-                        <th>Modalidade</th>
-                    </tr>
-                    <tr>
-                        <td>R$1.500,00</td>
-                        <td>Mensal</td>
-                    </tr>
-                </table>
-                <button name="alugue">Alugue aqui</button>
             </div>
-            <div class="plano-luxo">
-                <h3>Carros Luxo</h3>
-                <h4>Mini e Sedan</h4>
-                <img src="./img/carros-luxo-plano.png" alt="carro Cruze marrom e carro MiniCooper branco">
-                <p>Mini: Fiat 500e | MiniCooper SE | ou similares</p>
-                <p>Sedan: Chevrolet Cruze | Toyota Corolla | Audi e-tron | ou similares </p>
-                <ul>
-                    <li>3 ou 5 Portas</li>
-                    <li>Ar condicionado</li>
-                    <li>5 lugares</li>
-                    <li>Direção Hdráulica</li>
-                    <li>Air Bag</li>
-                    <li>Transmissão Automática</li>
-                </ul>
-                <table>
-                    <tr>
-                        <th>A partir de</th>
-                        <th>Modalidade</th>
-                    </tr>
-                    <tr>
-                        <td>R$4.500,00</td>
-                        <td>Mensal</td>
-                    </tr>
-                </table>
-                <button name="alugue">Alugue aqui</button>
-            </div>
+            <table>
+                <tr>
+                    <th>A partir de</th>
+                    <th>Modalidade</th>
+                </tr>
+                <tr>
+                    <td>R$1.500,00</td>
+                    <td>Mensal</td>
+                </tr>
+            </table>
+            <button name="alugue">Alugue aqui</button>
+        </section>
+
+
+
+        <section class="carros-planos">
+            <h3>Carros Luxo</h3>
+            <h4>Mini e Sedan</h4>
+            <img class="carros-planos-imagem" src="./img/carros-luxo-plano.png"
+                alt="carro Cruze marrom e carro MiniCooper branco">
+            <p>Mini: Fiat 500e | MiniCooper SE | ou similares</p>
+            <p>Sedan: Chevrolet Cruze | Toyota Corolla | Audi e-tron | ou similares </p>
+            <div class="carros-items">
+            <ul>
+                <li>
+                    <img class="icones-carros" src="./img/porta-do-carro.png" alt="icone porta do carro">
+                    5 Portas
+                </li>
+                <li>
+                    <img class="icones-carros" src="./img/ar-condicionado.png" alt="icone ar condicionado">
+                    Ar condicionado
+                </li>
+                <li>
+                    <img class="icones-carros" src="./img/passageiro.png" alt="passageiros">
+                    5 lugares
+                </li>
+                <li>
+                    <img class="icones-carros" src="./img/volante.png" alt="icone direção">
+                    Direção Hdráulica
+                </li>
+                <li>
+                    <img class="icones-carros" src="./img/airbag.png" alt="icone air-bag">
+                    Air Bag
+                </li>
+                <li>
+                    <img class="icones-carros" src="./img/transmissao.png" alt="icone transmissao">
+                    Transmissão Automática
+                </li>
+            </ul>
+        </div>
+            <table>
+                <tr>
+                    <th>A partir de</th>
+                    <th>Modalidade</th>
+                </tr>
+                <tr>
+                    <td>R$4.500,00</td>
+                    <td>Mensal</td>
+                </tr>
+            </table>
+            <button name="alugue">Alugue aqui</button>
+        </section>
         </section>
 
     </main>
