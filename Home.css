@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Conteudo-Da-Home {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 168, 168, 0.2);
+    color: #401717;
+    width: 100vw;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-inicial button {
+        background-color: rgb(255, 168, 168, 0.8);
+        border: 1px solid #401717;
+        font-size: 80%;
+        font-weight: bold;
+        width: 50%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        height: 40px;
+    }
+
+    button:hover {
+        background-color: #E65353;
+    }
+    button:active {
+        background-color: rgb(255, 168, 168, 0.6);
+    }
+    
+.Plano {
+    display: flex;
+}
+
+.Plano img {
+    max-width: 25rem;
+    width: 100%;
+    max-height: 25rem;
+    height: 100%;
+    box-shadow: 3px 3px 3px #805454;
+    border-radius: 20px;
+    display: flex;
+    row-gap: 20rem;
+    
+
+}
+
+
+
+
+
+
+.Final-Da-Pagina {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #805454;
+
+
+}
+
+
+
+.Final-Da-Pagina img {
+    align-items: center;
+    height: 30px;
+    width: 30px;
+
+}
+
+.Sobre-Nos {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 168, 168, 0.6);
+    text-align: center;
+
+}
+
+
