@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: rgb(255, 168, 168, 0.2);
+    color: #401717;
+    font-weight: bold;
+}
+
+.planos {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    padding: 2%;
+}
+
+h2 {
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.cabecalho-planos ol {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(255, 168, 168, 0.5);
+    font-size: large;
+}
+
+
+.carros-planos {
+    border: 1px solid #401717;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(255, 168, 168, 0.6);
+    margin: 2%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.carros-planos:hover{
+    border: 3px solid #401717;
+    
+}
+
+.carros-planos-imagem {
+    max-width: 300px;
+}
+
+.carros-items li {
+    list-style-type: none;
+
+}
+
+.icones-carros {
+    max-width: 19px;
+}
+
+.carros-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    font-size: small;
+}
+
+table,
+th {
+    background-color: rgb(255, 168, 168, 0.8);
+    border: 1px solid #401717;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+table {
+    width: 80%;
+}
+
+button {
+    background-color: rgb(255, 168, 168, 0.8);
+    border: 1px solid #401717;
+    font-size: 80%;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #e65353;
+}
+
+button:active {
+    background-color: rgb(255, 168, 168, 0.6);
+}
