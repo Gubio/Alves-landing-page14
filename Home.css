@@ -4,19 +4,23 @@
 }
 
 body {
-    min-height: 100%;
-    max-height: 100%;
-    min-width: 100%;
-    max-width: 100%;
+ min-height: 100%;
 }
 
 .Conteudo-Da-Home {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 1rem;
     background-color: rgb(255, 168, 168, 0.2);
     color: #401717;
     width: 100vw;
 
+}
+
+.Planos img {
+    height: 10rem;
+    width: 10rem;
 }
 
 
