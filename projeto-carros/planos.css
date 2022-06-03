@@ -4,16 +4,16 @@
 }
 
 
-
+/* header */
 .header{
     width: 100%;
     display: flex;
     flex-direction:row;
     justify-content:space-around;
     align-items: center;
-    text-align: center;
     position: fixed;
     background-color: rgba(255, 230, 230, 0.8);
+    
   }
   
   .conteudo{
@@ -23,17 +23,15 @@
   
   .divlogo{
     width: 50%;
-    align-items: center;
     text-align: center;
-    justify-content: center;
   
   }
   
   .login{
     width: 50%;
-    align-items: center;
     text-align: center;
     justify-content: center;
+    padding-top: 15px;
   }
   
   .item{
@@ -47,6 +45,7 @@
     justify-content: center;
     align-items: center;
     height: 40px;
+    margin-left: 1%;
   }
   
   .item a{
@@ -99,6 +98,9 @@
       background-color: rgb(255, 168, 168, 0.6);
   }
 
+
+/* main */
+
 main {
     background-color: rgb(255, 168, 168, 0.2);
     color: #401717;
@@ -136,7 +138,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgb(255, 168, 168, 0.6);
     margin: 2%;
-    max-width: 350px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +158,6 @@ h2 {
 
 .carros-items li {
     list-style-type: none;
-
 }
 
 .icones-carros {
@@ -205,11 +206,12 @@ button:active {
     background-color: rgb(255, 168, 168, 0.6);
 }
 
+/* footer */
 footer{
     width: 100%;
     bottom: 0;
 }
-.Final-Da-Pagina {
+.final-da-pagina {
   font-weight: bold;
   font-size: 100%;
   display: flex;
@@ -222,22 +224,38 @@ footer{
   padding-bottom: 2%;
   background-color: rgba(255, 230, 230, 0.8);
 }
-  .Final-Da-Pagina img {
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1050px;
   align-items: center;
-  height: 30px;
-  width: 30px;
 }
 
-#botaofooter{
+.campos-input{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+
+#botaofooter {
   background-color: rgb(255, 168, 168, 0.8);
-    border: 1px solid #401717;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    font-size: 100%;
-    font-weight: bold;
-    margin-top: 3%;
-    /* width: 20%; */
-    border-radius: 10px;
-    height: 40px;
+  border: 1px solid #401717;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 100%;
+  font-weight: bold;
+  margin-top: 3%;
+  width: 10%;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.icones-redes img {
+  align-items: center;
+  /* max-height: 30px; */
+  max-width: 30px;
 }
