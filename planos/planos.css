@@ -9,6 +9,11 @@ main {
     font-weight: bold;
 }
 
+.planos {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1 {
     padding: 2%;
 }
@@ -16,7 +21,10 @@ h1 {
 h2 {
     padding-top: 2%;
     padding-left: 2%;
+    margin-bottom: 2%;
+    text-align: center;
 }
+
 .cabecalho-planos ol {
     display: flex;
     justify-content: space-around;
@@ -38,16 +46,23 @@ h2 {
     align-items: center;
     text-align: center;
     font-size: medium;
-    
 
 }
+
+.carros-planos:hover{
+    border: 3px solid #401717;
+    
+}
+
 .carros-planos-imagem {
     max-width: 300px;
 }
+
 .carros-items li {
     list-style-type: none;
-    
+
 }
+
 .icones-carros {
     max-width: 19px;
 }
@@ -61,11 +76,10 @@ h2 {
     margin-bottom: 3%;
     margin-left: 3%;
     font-size: small;
-    
-
 }
 
-table, th {
+table,
+th {
     background-color: rgb(255, 168, 168, 0.8);
     border: 1px solid #401717;
     margin-top: 3%;
@@ -87,10 +101,10 @@ button {
     height: 40px;
 }
 
-button:hover{
+button:hover {
     background-color: #e65353;
 }
 
-button:active{
+button:active {
     background-color: rgb(255, 168, 168, 0.6);
 }
