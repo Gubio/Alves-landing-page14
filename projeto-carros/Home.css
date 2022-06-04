@@ -138,10 +138,16 @@
   
 }
 
-.imagem-Carro {
-  max-width: 100vw;
-  max-height: 100vh;
+.carros-vantagens li {
+	list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
+
+.icones {
+	max-width: 10rem;
+}
+
 
 
 .Sobre-Nos {
