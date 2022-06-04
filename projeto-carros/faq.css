@@ -119,36 +119,60 @@
 footer{
   width: 100%;
   bottom: 0;
-}
-.Final-Da-Pagina {
-font-weight: bold;
-font-size: 100%;
-display: flex;
-justify-content: space-around;
-align-items: center;
-position: static;
-bottom: 0;
-width: 100%;
-padding-top: 2%;
-padding-bottom: 2%;
-background-color: rgba(255, 230, 230, 0.8);
-}
-.Final-Da-Pagina img {
-align-items: center;
-height: 30px;
-width: 30px;
+  font-weight: bold;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(255, 230, 230, 0.8);
 }
 
-#botaofooter{
-background-color: rgb(255, 168, 168, 0.8);
+.redes img {
+align-items: center;
+height: 10%;
+width: 10%;
+}
+
+.redes{
+  padding-left: 6%;
+  width: 30%;
+}
+
+form {
+  width: 40%;
+  padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+}
+
+form div+div {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 3em;
+}
+
+.button{
+  background-color: rgb(255, 168, 168, 0.8);
   border: 1px solid #401717;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: 100%;
   font-weight: bold;
-  margin-top: 3%;
-  /* width: 20%; */
+  width: 20%;
   border-radius: 10px;
-  height: 40px;
+  height: 40%;
+}
+
+.button:hover{
+  background-color: #E65353;
+}
+
+.divlogofooter{
+  width: 50%;
+  text-align: center;
 }
