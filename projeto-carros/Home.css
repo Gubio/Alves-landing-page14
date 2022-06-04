@@ -92,7 +92,6 @@
 
 .Conteudo-Da-Home {
   display: flex;
-  align-items: center;
   flex-direction: column;
   
 }
@@ -138,14 +137,24 @@
   
 }
 
+.carros-vantagens {
+  display: flex;
+
+}
+
+
 .carros-vantagens li {
 	list-style-type: none;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
+  padding: 3%;
+
 }
 
 .icones {
 	max-width: 10rem;
+
 }
 
 
