@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="Home.css">
     <title>4Cars Tela-Inicial</title>
 </head>
+
 <body>
     <header class="header">
         <div class="divlogo">
@@ -30,50 +32,87 @@
             <section class="texto-inicial">
                 <h1><strong>4 CARS</strong></h1>
                 <h3>Nosso Carro, sua chance</h3>
-                <img class= "imagem-home-superior" src="./img/foto-home.png" alt="pessoa dirigindo, logo do 99 e da Uber">
+                <img class="imagem-home-superior" src="./img/foto-home.png"
+                    alt="pessoa dirigindo, logo do 99 e da Uber">
             </section>
             <section Class="introducao-Planos">
                 <h1><strong>Nossos Planos</strong></h1>
-                <h2> Com intuito de ajudar os motoristas de aplicativos, 4Cars surpreende mercado de trabalho trazendo um sistema aluguel de carros, tantos populares quanto de luxo, clique na imagem do carro a seguir e veja nossos planos:</h2>
-                <a href="./planos.html">
-                    <img class="imagem-Carro" src="./img/Carro-Home.png" alt="Audi-tron, imagem clicável para pagina planos">
-                </a>
+                <h2> Com intuito de ajudar os motoristas de aplicativos, 4Cars surpreende mercado de trabalho trazendo
+                    um sistema aluguel de carros, tantos populares quanto de luxo, veja seguir um pouco da vantagem de
+                    trabalhar conosco:</h2>
             </section>
+            <section class="carros-vantagens">
+                <ul>
+                    <li>
+                        <img class="icones" src="./img/carro (1).png" alt="icone de Carro">
+                        Atendimento diferenciado 24 horas.
+                    </li>
+                    <li>
+                        <Img class="icones" src="./img/Melhor-preços.png" alt="icone de Dinheiro">
+                        Temos melhores preços do mercado.
+                    </li>
+                    <li>
+                        <img class="icones" src="./img/carro-sai-rodando.png" alt="Icone de Carro de Corrida">
+                        Saia rodando na hora.
+                    </li>
+                    <li>
+                        <img class="icones" src="./img/burocracia.png"
+                            alt="Icone de Burocracias de uma pessoa amarrada">
+                        Não se preocupe com a burocracia.
+                    </li>
+                </ul>
+            </section>
+            <section class="botao-">
+                <a class="botao-icones" href="./planos.html" target="_blank"><strong>Veja Nossos Planos</strong></a>
+            </a>
+        </section>
             <section class="Sobre-Nos">
                 <h1><strong>Sobre Nós</strong></h1>
                 <img class="tamanhoLogo" src="./img/logo-sem-fundo.png" alt="Logo do 4Cars"></img>
-                <h4> A 4Cars é uma empresa que tem surfado na onda dos apps de motoristas. Nossa proposta é oferecer carros para serem alugados por motoristas a um custo razoável, aumentando a oportunidade para quem não têm dinheiro para comprar um carro.</h4>
+                <h4> A 4Cars é uma empresa que tem surfado na onda dos apps de motoristas. Nossa proposta é oferecer
+                    carros para serem alugados por motoristas a um custo razoável, aumentando a oportunidade para quem
+                    não têm dinheiro para comprar um carro.</h4>
             </section>
 
-        </section:>
+            </section:>
     </main>
 
-    <footer class="final-da-pagina">
-        <h3>Nosso Carro, sua chance</h3>
-        <div class="form">
-        <label class="campos-input" for="Nome">Contato</label>
-        <input class="campos-input" type="text" id="Nome" placeholder="Seu Contato" name="Contato">
-        <label class="campos-input" class="campos-input" for="telefone">Telefone</label>
-        <input class="campos-input" class="campos-input" type="Number" id="telefone" placeholder="Seu Telefone" name="telefone">
-        <label class="campos-input" type="Email">Email</label>
-        <input class="campos-input" type="text" id="Email" placeholder="Seu Email" name="Email">
-        <label class="campos-input" for="Motivo do seu contato"> Mensagem</label>
-        <input class="campos-input" id="Motivo do seu contato" placeholder="Sua Mensagem aqui">
-        <button id="botaofooter" submit="Enviar">Enviar</button>
+    <footer>
+        <div class="redes">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="./img/facebook.png" alt="Icone Facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./img/instagram.png" alt="Icone Instagram">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="./img/twitter.png" alt="Icone Twitter">
+            </a>
         </div>
 
-        <div class="icones-redes">
-        <a href="https://www.facebook.com/" target="_blank">
-            <img src="./img/facebook.png" alt="Icone Facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img src="./img/instagram.png" alt="Icone Instagram">
-        </a>
-        <a href="https://twitter.com/" target="_blank">
-            <img src="./img/twitter.png" alt="Icone Twitter">
-        </a>
+        <form action="/formulario-contato" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="nome_usuario">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email_usuario">
+            </div>
+            <div>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" name="texto_usuario"></textarea>
+            </div>
+            <div>
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </form>
+
+        <div class="divlogofooter">
+            <img id="imglogo" src="./img/logocars.png" alt="logo">
         </div>
-    </footer>>
-    
+    </footer>
+
 </body>
+
 </html>
