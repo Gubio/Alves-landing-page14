@@ -1,14 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
 
+/* header */
 .header{
   width: 100%;
   display: flex;
   flex-direction:row;
   justify-content:space-around;
   align-items: center;
-  text-align: center;
   position: fixed;
   background-color: rgba(255, 230, 230, 0.8);
+  
 }
 
 .conteudo{
@@ -18,17 +23,15 @@
 
 .divlogo{
   width: 50%;
-  align-items: center;
   text-align: center;
-  justify-content: center;
 
 }
 
 .login{
   width: 50%;
-  align-items: center;
   text-align: center;
   justify-content: center;
+  padding-top: 15px;
 }
 
 .item{
@@ -42,6 +45,7 @@
   justify-content: center;
   align-items: center;
   height: 40px;
+  margin-left: 1%;
 }
 
 .item a{
