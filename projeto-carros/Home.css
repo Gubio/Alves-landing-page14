@@ -157,6 +157,24 @@
 
 }
 
+.botao-icones {
+  display: flex;
+  align-items: center;
+  text-align: center;
+	background-color: rgb(255, 168, 168, 0.7);
+	border: 1px solid #000000;
+	width: 98%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3vw;
+	margin-left: 1%;
+	font-size: 130%;
+  margin-bottom: 2%;
+
+
+}
 
 
 .Sobre-Nos {
