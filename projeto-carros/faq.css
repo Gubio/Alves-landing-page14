@@ -112,3 +112,63 @@
   font-size: larger;
 }
 
+footer{
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(255, 230, 230, 0.8);
+}
+
+.redes img {
+align-items: center;
+height: 10%;
+width: 10%;
+}
+
+.redes{
+  padding-left: 6%;
+  width: 30%;
+}
+
+form {
+  width: 40%;
+  padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+}
+
+form div+div {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 3em;
+}
+
+.button{
+  background-color: rgb(255, 168, 168, 0.8);
+  border: 1px solid #401717;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 10px;
+  height: 40%;
+}
+
+.button:hover{
+  background-color: #E65353;
+}
+
+.divlogofooter{
+  width: 50%;
+  text-align: center;
+}
