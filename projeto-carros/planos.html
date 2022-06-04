@@ -153,24 +153,10 @@
 
     </main>
 
-    <footer class="final-da-pagina">
-        <h3>Nosso Carro, sua chance</h3>
-        <div class="form">
-            <label class="campos-input" for="Nome">Contato</label>
-            <input class="campos-input" type="text" id="Nome" placeholder="Seu Contato" name="Contato">
-            <label class="campos-input" class="campos-input" for="telefone">Telefone</label>
-            <input class="campos-input" class="campos-input" type="Number" id="telefone" placeholder="Seu Telefone"
-                name="telefone">
-            <label class="campos-input" type="Email">Email</label>
-            <input class="campos-input" type="text" id="Email" placeholder="Seu Email" name="Email">
-            <label class="campos-input" for="Motivo do seu contato"> Mensagem</label>
-            <input class="campos-input" id="Motivo do seu contato" placeholder="Sua Mensagem aqui">
-            <button id="botaofooter" submit="Enviar">Enviar</button>
-        </div>
-
-        <div class="icones-redes">
+    <footer>
+        <div class="redes">
             <a href="https://www.facebook.com/" target="_blank">
-                <img src="./img/facebook.png" alt="Icone Facebook">
+                <img src="./img/" alt="Icone Facebook">
             </a>
             <a href="https://www.instagram.com/" target="_blank">
                 <img src="./img/instagram.png" alt="Icone Instagram">
@@ -178,6 +164,28 @@
             <a href="https://twitter.com/" target="_blank">
                 <img src="./img/twitter.png" alt="Icone Twitter">
             </a>
+        </div>
+
+        <form action="/formulario-contato" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="nome_usuario">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email_usuario">
+            </div>
+            <div>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" name="texto_usuario"></textarea>
+            </div>
+            <div>
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </form>
+
+        <div class="divlogofooter">
+            <img id="imglogo" src="./img/logocars.png" alt="logo">
         </div>
     </footer>
 
