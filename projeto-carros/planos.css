@@ -275,3 +275,38 @@ footer{
 	width: 50%;
 	text-align: center;
   }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	/* main  */
+   .conteudo {
+	 width: 100%;
+   }
+   
+  
+   /* footer */
+   
+   footer {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+   }
+   
+   .redes {
+	 padding-bottom: 4%;
+	 padding-left: 48%;
+	 width: 71%;
+	 margin-bottom: 1%;
+	 margin-top: 1%;
+   }
+   
+   .button {
+	 width: 102%
+   }
+  
+   .divlogofooter {
+	 padding-top: 4%;
+   }
+  
+  }

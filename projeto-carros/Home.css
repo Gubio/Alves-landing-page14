@@ -257,8 +257,6 @@
 
 }
 
-}
-
 .texto-inicial h3 {
   font-size: 1.5rem;
 }
@@ -283,6 +281,7 @@ footer {
 }
 
 .redes {
+  padding-bottom: 4%;
   padding-left: 48%;
   width: 71%;
   margin-bottom: 1%;
@@ -291,4 +290,9 @@ footer {
 
 .button {
   width: 102%
+}
+
+.divlogofooter {
+  padding-top: 4%;
+}
 }
