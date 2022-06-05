@@ -405,13 +405,13 @@ textarea {
   }
 
   .redes {
-    padding-bottom: 4%;
-    padding-left: 48%;
-    width: 71%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
     margin-bottom: 1%;
     margin-top: 1%;
   }
-
   .button {
     width: 102%
   }
