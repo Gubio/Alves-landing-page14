@@ -1,18 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 
 /* header */
 .header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  position: fixed;
-  background-color: rgba(255, 230, 230, 0.8);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background-color: rgba(255, 230, 230, 0.5);
 
 }
 
@@ -32,38 +33,39 @@
 }
 
 .login {
-  width: 50%;
-  text-align: center;
-  justify-content: center;
-  padding-top: 15px;
+	width: 40%;
+	font-weight: bold;
+	margin-right: 2%;
+	display: flex;
+	justify-content: end;
 }
 
-.item {
-  text-align: center;
-  background-color: rgb(255, 168, 168, 0.8);
-  border: 1px solid #401717;
-  font-weight: bold;
-  width: 40%;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  margin-left: 1%;
+.item,
+.botao-login {
+	text-align: center;
+	background-color: rgb(255, 168, 168, 0.7);
+	border: 1px solid #000000;
+	width: 40%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3vw;
+	margin-left: 1%;
+	font-size: 130%;
 }
 
 .item a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-decoration: none;
-  text-align: center;
-  color: black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
 }
 
 .item:hover {
-  background-color: #E65353;
+	background-color: #E65353;
 }
 
 #imglogo {
@@ -72,34 +74,15 @@
 }
 
 .navum {
-  align-items: center;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  font-size: larger;
-  font-size: 130%;
-  width: 80%;
-  border-radius: 10px;
-  height: 10%;
-  padding: 5px 10px;
+	display: flex;
+	width: 80%;
+}
+.botao-login:hover {
+	background-color: #E65353;
 }
 
-.buttonheader {
-  background-color: rgb(255, 168, 168, 0.8);
-  border: 1px solid #401717;
-  font-size: 100%;
-  font-weight: bold;
-  width: 50%;
-  border-radius: 10px;
-  height: 40px;
-}
-
-.buttonheader:hover {
-  background-color: #E65353;
-}
-
-.buttonheader:active {
-  background-color: rgb(255, 168, 168, 0.6);
+.botao-login:active {
+	background-color: rgb(255, 168, 168, 0.6);
 }
 
 /* caixa de busca palavra chave */
