@@ -102,6 +102,8 @@
     background-color: rgb(255, 168, 168, 0.6);
 }
 
+/* caixa de busca palavra chave */
+
 #busca{
     width:40%;
     background-color: transparent;
@@ -113,12 +115,16 @@
     width: 1.5%;
 }
 
+/* titulo página */
+
 .titulofaq{
   text-align: center;
   font-size: larger;
   background-color: rgb(255, 168, 168, 0.8);
   padding: 3%;
 }
+
+/* links perguntas */
 
 .tituloptum {
   font-size: 220%;
@@ -159,6 +165,8 @@
   font-size: 120%;
 }
 
+/* conteudo da página */
+
 #carroseletricos, #emergencias, #requisitos, #durantelocacao {
   font-size: 170%;
   padding-top: 1%;
@@ -197,6 +205,8 @@ textarea {
 .button:hover{
   background-color: #E65353;
 }
+
+/* footer */
 
 footer{
   width: 100%;
@@ -258,4 +268,103 @@ textarea {
 .divlogofooter{
   width: 50%;
   text-align: center;
+}
+  /* responsividade  */
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  /* main  */
+ .conteudo {
+   width: 100%;
+   padding-top: 5%;
+ }
+
+ .titulofaq{
+   padding-top: 13%;
+ }
+
+
+ .tituloptum {
+  font-size: 180%;
+  padding-bottom: 3%;
+}
+
+.tituloptdois{
+  font-size: 150%;
+  padding-bottom: 3%;
+}
+
+.titulopttres{
+  font-size: 140%;
+  padding-bottom: 3%;
+}
+
+.perguntas{
+  padding-top: 4%;
+}
+
+.titulopergunta{
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.tituloquest{
+  padding-top: 4%;
+  font-size: 150%;
+}
+
+p{
+  font-size: 140%;
+}
+
+#busca{
+  width:100%;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 80%;
+}
+
+#itembuscar img {
+  width: 4%;
+}
+
+#carroseletricos, #emergencias, #requisitos, #durantelocacao {
+  font-size: 200%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#perguntaum, #perguntadois, #perguntatres, #perguntaquatro, #perguntacinco, #perguntaseis, #perguntasete, #perguntaoito, #perguntanove, #perguntadez, #perguntaonze, #perguntadoze, #perguntatreze, #perguntaquatorze {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 150%;
+}
+ 
+
+ /* footer */
+ 
+ footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .redes {
+   padding-bottom: 4%;
+   padding-left: 48%;
+   width: 71%;
+   margin-bottom: 1%;
+   margin-top: 1%;
+ }
+ 
+ .button {
+   width: 102%
+ }
+
+ .divlogofooter {
+   padding-top: 4%;
+ }
+
 }
