@@ -239,3 +239,56 @@
     width: 50%;
     text-align: center;
   }
+
+  /* Responsividade */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+ /* main  */
+.conteudo {
+  width: 100%;
+
+
+}
+
+
+.texto-inicial h1 {
+  font-size: 5rem;
+
+}
+
+}
+
+.texto-inicial h3 {
+  font-size: 1.5rem;
+}
+
+.carros-vantagens {
+  display: flex;
+  flex-direction: column;
+}
+
+.botao-icones {
+width: 50%;
+font-size: 6vw;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes {
+  padding-left: 48%;
+  width: 71%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.button {
+  width: 102%
+}
