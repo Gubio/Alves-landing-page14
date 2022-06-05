@@ -5,54 +5,54 @@
 
 
 /* header */
-.header{
+.header {
   width: 100%;
   display: flex;
-  flex-direction:row;
-  justify-content:space-around;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   background-color: rgba(255, 230, 230, 0.8);
-  
+
 }
 
-.conteudo{
+.conteudo {
   padding-top: 7%;
   background-color: rgba(248, 245, 245, 0.8);
 }
 
-.respostas{
+.respostas {
   padding-top: 2%;
 }
 
-.divlogo{
+.divlogo {
   width: 50%;
   text-align: center;
 
 }
 
-.login{
+.login {
   width: 50%;
   text-align: center;
   justify-content: center;
   padding-top: 15px;
 }
 
-.item{
+.item {
   text-align: center;
   background-color: rgb(255, 168, 168, 0.8);
   border: 1px solid #401717;
   font-weight: bold;
   width: 40%;
   border-radius: 10px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
   margin-left: 1%;
 }
 
-.item a{
+.item a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,7 @@
   color: black;
 }
 
-.item:hover{
+.item:hover {
   background-color: #E65353;
 }
 
@@ -74,7 +74,7 @@
 .navum {
   align-items: center;
   text-align: center;
-  display:flex;
+  display: flex;
   justify-content: center;
   font-size: larger;
   font-size: 130%;
@@ -85,39 +85,39 @@
 }
 
 .buttonheader {
-    background-color: rgb(255, 168, 168, 0.8);
-    border: 1px solid #401717;
-    font-size: 100%;
-    font-weight: bold;
-    width: 50%;
-    border-radius: 10px;
-    height: 40px;
+  background-color: rgb(255, 168, 168, 0.8);
+  border: 1px solid #401717;
+  font-size: 100%;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 10px;
+  height: 40px;
 }
 
 .buttonheader:hover {
-    background-color: #E65353;
+  background-color: #E65353;
 }
 
 .buttonheader:active {
-    background-color: rgb(255, 168, 168, 0.6);
+  background-color: rgb(255, 168, 168, 0.6);
 }
 
 /* caixa de busca palavra chave */
 
-#busca{
-    width:40%;
-    background-color: transparent;
-    border-radius: 10px;
-    font-size: 120%;
-  }
+#busca {
+  width: 40%;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 120%;
+}
 
 #itembuscar img {
-    width: 1.5%;
+  width: 1.5%;
 }
 
 /* titulo página */
 
-.titulofaq{
+.titulofaq {
   text-align: center;
   font-size: larger;
   background-color: rgb(255, 168, 168, 0.8);
@@ -131,33 +131,33 @@
   padding-bottom: 1%;
 }
 
-.tituloptdois{
+.tituloptdois {
   font-size: 180%;
   padding-bottom: 1%;
 }
 
-.titulopttres{
+.titulopttres {
   font-size: 150%;
   padding-bottom: 1%;
 }
 
-.perguntas a{
-  color:#767070;
+.perguntas a {
+  color: #767070;
   font-weight: bold;
   justify-content: center;
   text-align: center;
 }
 
-.perguntas{
+.perguntas {
   padding-top: 4%;
 }
 
-.titulopergunta{
+.titulopergunta {
   font-size: 150%;
   text-decoration: none;
 }
 
-.tituloquest{
+.tituloquest {
   padding-top: 2%;
   width: 100%;
   height: 100%;
@@ -167,7 +167,10 @@
 
 /* conteudo da página */
 
-#carroseletricos, #emergencias, #requisitos, #durantelocacao {
+#carroseletricos,
+#emergencias,
+#requisitos,
+#durantelocacao {
   font-size: 170%;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -175,17 +178,30 @@
   text-align: center;
 }
 
-#perguntaum, #perguntadois, #perguntatres, #perguntaquatro, #perguntacinco, #perguntaseis, #perguntasete, #perguntaoito, #perguntanove, #perguntadez, #perguntaonze, #perguntadoze, #perguntatreze, #perguntaquatorze {
+#perguntaum,
+#perguntadois,
+#perguntatres,
+#perguntaquatro,
+#perguntacinco,
+#perguntaseis,
+#perguntasete,
+#perguntaoito,
+#perguntanove,
+#perguntadez,
+#perguntaonze,
+#perguntadoze,
+#perguntatreze,
+#perguntaquatorze {
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   font-size: 120%;
 }
 
-.contatopgt{
-  color:black
+.contatopgt {
+  color: black
 }
 
-p{
+p {
   font-size: 110%;
 }
 
@@ -193,7 +209,7 @@ textarea {
   height: 3em;
 }
 
-.button{
+.button {
   background-color: rgb(255, 168, 168, 0.8);
   border: 1px solid #401717;
   font-weight: bold;
@@ -202,13 +218,13 @@ textarea {
   height: 40%;
 }
 
-.button:hover{
+.button:hover {
   background-color: #E65353;
 }
 
 /* footer */
 
-footer{
+footer {
   width: 100%;
   bottom: 0;
   font-weight: bold;
@@ -222,12 +238,12 @@ footer{
 }
 
 .redes img {
-align-items: center;
-height: 10%;
-width: 10%;
+  align-items: center;
+  height: 10%;
+  width: 10%;
 }
 
-.redes{
+.redes {
   padding-left: 6%;
   width: 30%;
 }
@@ -252,7 +268,7 @@ textarea {
   height: 3em;
 }
 
-.button{
+.button {
   background-color: rgb(255, 168, 168, 0.8);
   border: 1px solid #401717;
   font-weight: bold;
@@ -261,110 +277,164 @@ textarea {
   height: 40%;
 }
 
-.button:hover{
+.button:hover {
   background-color: #E65353;
 }
 
-.divlogofooter{
+.divlogofooter {
   width: 50%;
   text-align: center;
 }
-  /* responsividade  */
+
+/* responsividade  */
 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
+  /* header */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    background-color: rgba(255, 230, 230, 0.5);
+  }
+
+  .divlogo {
+    display: none;
+  }
+
+  .navum {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .item,
+  .botao-login {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 70%;
+  }
+
+  .login {
+    width: 100%;
+    font-weight: bold;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
   /* main  */
- .conteudo {
-   width: 100%;
-   padding-top: 5%;
- }
+  .conteudo {
+    width: 100%;
+    padding-top: 5%;
+  }
 
- .titulofaq{
-   padding-top: 13%;
- }
+  .titulofaq {
+    padding-top: 13%;
+  }
 
 
- .tituloptum {
-  font-size: 180%;
-  padding-bottom: 3%;
-}
+  .tituloptum {
+    font-size: 180%;
+    padding-bottom: 3%;
+  }
 
-.tituloptdois{
-  font-size: 150%;
-  padding-bottom: 3%;
-}
+  .tituloptdois {
+    font-size: 150%;
+    padding-bottom: 3%;
+  }
 
-.titulopttres{
-  font-size: 140%;
-  padding-bottom: 3%;
-}
+  .titulopttres {
+    font-size: 140%;
+    padding-bottom: 3%;
+  }
 
-.perguntas{
-  padding-top: 4%;
-}
+  .perguntas {
+    padding-top: 4%;
+  }
 
-.titulopergunta{
-  font-size: 150%;
-  text-decoration: none;
-}
+  .titulopergunta {
+    font-size: 150%;
+    text-decoration: none;
+  }
 
-.tituloquest{
-  padding-top: 4%;
-  font-size: 150%;
-}
+  .tituloquest {
+    padding-top: 4%;
+    font-size: 150%;
+  }
 
-p{
-  font-size: 140%;
-}
+  p {
+    font-size: 140%;
+  }
 
-#busca{
-  width:100%;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: 80%;
-}
+  #busca {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 80%;
+  }
 
-#itembuscar img {
-  width: 4%;
-}
+  #itembuscar img {
+    width: 4%;
+  }
 
-#carroseletricos, #emergencias, #requisitos, #durantelocacao {
-  font-size: 200%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
+  #carroseletricos,
+  #emergencias,
+  #requisitos,
+  #durantelocacao {
+    font-size: 200%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 
-#perguntaum, #perguntadois, #perguntatres, #perguntaquatro, #perguntacinco, #perguntaseis, #perguntasete, #perguntaoito, #perguntanove, #perguntadez, #perguntaonze, #perguntadoze, #perguntatreze, #perguntaquatorze {
-  padding-top: 3%;
-  padding-bottom: 3%;
-  font-size: 150%;
-}
- 
+  #perguntaum,
+  #perguntadois,
+  #perguntatres,
+  #perguntaquatro,
+  #perguntacinco,
+  #perguntaseis,
+  #perguntasete,
+  #perguntaoito,
+  #perguntanove,
+  #perguntadez,
+  #perguntaonze,
+  #perguntadoze,
+  #perguntatreze,
+  #perguntaquatorze {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 150%;
+  }
 
- /* footer */
- 
- footer {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
- 
- .redes {
-   padding-bottom: 4%;
-   padding-left: 48%;
-   width: 71%;
-   margin-bottom: 1%;
-   margin-top: 1%;
- }
- 
- .button {
-   width: 102%
- }
 
- .divlogofooter {
-   padding-top: 4%;
- }
+  /* footer */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redes {
+    padding-bottom: 4%;
+    padding-left: 48%;
+    width: 71%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+  .button {
+    width: 102%
+  }
+
+  .divlogofooter {
+    padding-top: 4%;
+  }
 
 }

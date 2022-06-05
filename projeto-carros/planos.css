@@ -126,7 +126,7 @@ h2 {
 	align-items: center;
 	border: 1.5px solid #000000;
 	border-radius: 10px;
-	max-width: 10em;
+	width: 15%;
 	padding: 2%;
 	background-color: rgb(255, 168, 168, 0.5);
 
@@ -215,7 +215,7 @@ table {
 }
 
 /* footer */
-footer{
+footer {
 	width: 100%;
 	bottom: 0;
 	font-weight: bold;
@@ -225,88 +225,179 @@ footer{
 	padding-top: 1%;
 	padding-bottom: 1%;
 	background-color: rgba(255, 230, 230, 0.8);
-  }
-  
-  .redes img {
-  align-items: center;
-  height: 10%;
-  width: 10%;
-  }
-  
-  .redes{
+}
+
+.redes img {
+	align-items: center;
+	height: 10%;
+	width: 10%;
+}
+
+.redes {
 	padding-left: 6%;
 	width: 30%;
-  }
-  
-  form {
+}
+
+form {
 	width: 40%;
 	padding: 1em;
 	border: 1px solid rgb(0, 0, 0);
 	border-radius: 1em;
-  }
-  
-  form div+div {
+}
+
+form div+div {
 	margin-top: 1em;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
 	width: 100%;
-  }
-  
-  textarea {
+}
+
+textarea {
 	height: 3em;
-  }
-  
-  .button{
+}
+
+.button {
 	background-color: rgb(255, 168, 168, 0.8);
 	border: 1px solid #401717;
 	font-weight: bold;
 	width: 20%;
 	border-radius: 10px;
 	height: 40%;
-  }
-  
-  .button:hover{
+}
+
+.button:hover {
 	background-color: #E65353;
-  }
-  
-  .divlogofooter{
+}
+
+.divlogofooter {
 	width: 50%;
 	text-align: center;
-  }
+}
 
-  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+	/* header */
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: static;
+		background-color: rgba(255, 230, 230, 0.5);
+	}
+
+	.divlogo {
+		display: none;
+	}
+
+	.navum {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.item,
+	.botao-login {
+		width: 18%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 5vh;
+		font-size: 70%;
+	}
+
+	.login {
+		width: 100%;
+		font-weight: bold;
+		margin-right: 2%;
+		display: flex;
+		justify-content: center;
+	}
+
+
 
 	/* main  */
-   .conteudo {
-	 width: 100%;
-   }
-   
-  
-   /* footer */
-   
-   footer {
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: center;
-	 align-items: center;
-   }
-   
-   .redes {
-	 padding-bottom: 4%;
-	 padding-left: 48%;
-	 width: 71%;
-	 margin-bottom: 1%;
-	 margin-top: 1%;
-   }
-   
-   .button {
-	 width: 102%
-   }
-  
-   .divlogofooter {
-	 padding-top: 4%;
-   }
-  
-  }
+	.conteudo {
+		width: 100%;
+	}
+
+	h1 {
+		padding: 1%;
+		font-size: 3vh;
+	}
+
+	.cabecalho-planos ol {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		font-size: medium;
+
+	}
+
+	.lista-cabecalho {
+		width: 90%;
+		padding: 1%;
+
+	}
+
+	h2 {
+		font-size: 3vh;
+	}
+
+	.planos {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.carros-planos-imagem {
+		width: 150px;
+		padding: 1%;
+	}
+
+	.carros-planos {
+		border: 1px solid #000000;
+		border-radius: 10px;
+		box-shadow: 10px 10px 5px rgb(255, 168, 168, 0.6);
+		margin: 2%;
+		max-width: 95%;
+		max-height: 80vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		font-size: 2.5vh;
+
+	}
+
+
+
+	/* footer */
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.redes {
+		padding-bottom: 4%;
+		padding-left: 48%;
+		width: 71%;
+		margin-bottom: 1%;
+		margin-top: 1%;
+	}
+
+	.button {
+		width: 102%
+	}
+
+	.divlogofooter {
+		padding-top: 4%;
+	}
+
+}
