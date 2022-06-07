@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+/* header */
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	background-color: rgba(255, 230, 230, 0.5);
+
+}
+
+.conteudo {
+  padding-top: 7%;
+  background-color: rgba(248, 245, 245, 0.8);
+}
+
+.respostas {
+  padding-top: 2%;
+}
+
+.divlogo {
+  width: 50%;
+  text-align: center;
+
+}
+
+.login {
+	width: 40%;
+	font-weight: bold;
+	margin-right: 2%;
+	display: flex;
+	justify-content: end;
+}
+
+.item,
+.botao-login {
+	text-align: center;
+	background-color: rgb(255, 168, 168, 0.7);
+	border: 1px solid #000000;
+	width: 40%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3vw;
+	margin-left: 1%;
+	font-size: 130%;
+}
+
+.item a {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+}
+
+.item:hover {
+	background-color: #E65353;
+}
+
+#imglogo {
+  width: 50%;
+  height: 50%;
+}
+
+.navum {
+	display: flex;
+	width: 80%;
+}
+.botao-login:hover {
+	background-color: #E65353;
+}
+
+.botao-login:active {
+	background-color: rgb(255, 168, 168, 0.6);
+}
+
+/* caixa de busca palavra chave */
+
+#busca {
+  width: 40%;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 120%;
+}
+
+#itembuscar img {
+  width: 1.5%;
+}
+
+/* titulo página */
+
+.titulofaq {
+  text-align: center;
+  font-size: larger;
+  background-color: rgb(255, 168, 168, 0.8);
+  padding: 3%;
+}
+
+/* links perguntas */
+
+.tituloptum {
+  font-size: 220%;
+  padding-bottom: 1%;
+}
+
+.tituloptdois {
+  font-size: 180%;
+  padding-bottom: 1%;
+}
+
+.titulopttres {
+  font-size: 150%;
+  padding-bottom: 1%;
+}
+
+.perguntas a {
+  color: #767070;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+}
+
+.perguntas {
+  padding-top: 4%;
+}
+
+.titulopergunta {
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.tituloquest {
+  padding-top: 2%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 120%;
+}
+
+/* conteudo da página */
+
+#carroseletricos,
+#emergencias,
+#requisitos,
+#durantelocacao {
+  font-size: 170%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(255, 230, 230, 0.8);
+  text-align: center;
+}
+
+#perguntaum,
+#perguntadois,
+#perguntatres,
+#perguntaquatro,
+#perguntacinco,
+#perguntaseis,
+#perguntasete,
+#perguntaoito,
+#perguntanove,
+#perguntadez,
+#perguntaonze,
+#perguntadoze,
+#perguntatreze,
+#perguntaquatorze {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-size: 120%;
+}
+
+.contatopgt {
+  color: black
+}
+
+p {
+  font-size: 110%;
+}
+
+textarea {
+  height: 3em;
+}
+
+.button {
+  background-color: rgb(255, 168, 168, 0.8);
+  border: 1px solid #401717;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 10px;
+  height: 40%;
+}
+
+.button:hover {
+  background-color: #E65353;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(255, 230, 230, 0.8);
+}
+
+.redes img {
+  align-items: center;
+  height: 10%;
+  width: 10%;
+}
+
+.redes {
+  padding-left: 6%;
+  width: 30%;
+}
+
+form {
+  width: 40%;
+  padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+}
+
+form div+div {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 3em;
+}
+
+.button {
+  background-color: rgb(255, 168, 168, 0.8);
+  border: 1px solid #401717;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 10px;
+  height: 40%;
+}
+
+.button:hover {
+  background-color: #E65353;
+}
+
+.divlogofooter {
+  width: 50%;
+  text-align: center;
+}
+
+/* responsividade  */
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  /* header */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    background-color: rgba(255, 230, 230, 0.5);
+  }
+
+  .divlogo {
+    display: none;
+  }
+
+  .navum {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .item,
+  .botao-login {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 70%;
+  }
+
+  .login {
+    width: 100%;
+    font-weight: bold;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* main  */
+  .conteudo {
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  .titulofaq {
+    padding-top: 13%;
+  }
+
+
+  .tituloptum {
+    font-size: 180%;
+    padding-bottom: 3%;
+  }
+
+  .tituloptdois {
+    font-size: 150%;
+    padding-bottom: 3%;
+  }
+
+  .titulopttres {
+    font-size: 140%;
+    padding-bottom: 3%;
+  }
+
+  .perguntas {
+    padding-top: 4%;
+  }
+
+  .titulopergunta {
+    font-size: 150%;
+    text-decoration: none;
+  }
+
+  .tituloquest {
+    padding-top: 4%;
+    font-size: 150%;
+  }
+
+  p {
+    font-size: 140%;
+  }
+
+  #busca {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 80%;
+  }
+
+  #itembuscar img {
+    width: 4%;
+  }
+
+  #carroseletricos,
+  #emergencias,
+  #requisitos,
+  #durantelocacao {
+    font-size: 200%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  #perguntaum,
+  #perguntadois,
+  #perguntatres,
+  #perguntaquatro,
+  #perguntacinco,
+  #perguntaseis,
+  #perguntasete,
+  #perguntaoito,
+  #perguntanove,
+  #perguntadez,
+  #perguntaonze,
+  #perguntadoze,
+  #perguntatreze,
+  #perguntaquatorze {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 150%;
+  }
+
+
+  /* footer */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redes {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  .button {
+    width: 102%
+  }
+
+  .divlogofooter {
+    padding-top: 4%;
+  }
+
+}

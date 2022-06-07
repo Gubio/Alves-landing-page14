@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* header */
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(255, 230, 230, 0.5);
+
+}
+
+#imglogo {
+  width: 50%;
+  height: 50%;
+}
+
+.divlogo {
+  width: 50%;
+  text-align: center;
+
+}
+
+.item,
+.botao-login {
+  text-align: center;
+  background-color: rgb(255, 168, 168, 0.7);
+  border: 1px solid #000000;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vw;
+  margin-left: 1%;
+  font-size: 130%;
+}
+
+.login {
+  width: 40%;
+  font-weight: bold;
+  margin-right: 2%;
+  display: flex;
+  justify-content: end;
+}
+
+.botao-login:hover {
+  background-color: #E65353;
+}
+
+.botao-login:active {
+  background-color: rgb(255, 168, 168, 0.6);
+}
+
+.item a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+}
+
+.item:hover {
+  background-color: #E65353;
+}
+
+.navum {
+  display: flex;
+  width: 80%;
+}
+
+
+/* main */
+
+.conteudo {
+  padding-top: 5%;
+  background-color: rgb(255, 168, 168, 0.1);
+
+}
+
+.conteudo-da-home {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.texto-inicial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-inicial h1 {
+  font-size: 10rem;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  text-align: center;
+  color: black
+}
+
+.texto-inicial h3 {
+  font-size: 3rem;
+  text-align: center;
+  color: #ff5c5c;
+  text-transform: uppercase;
+}
+
+.imagem-home-superior {
+  max-width: 100%;
+}
+
+.introducao-planos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 168, 168, 0.1);
+}
+
+.introducao-planos h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.introducao-planos p {
+  text-align: center;
+  padding: 0.5vh;
+}
+
+.carros-vantagens {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.carros-vantagens li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0.5%;
+  margin-left: 1%;
+}
+
+.icones {
+  max-width: 3rem;
+  padding: 0.5vh;
+
+}
+
+.botao-icones {
+  text-decoration: none;
+  background-color: rgb(255, 168, 168, 0.7);
+  border: 1px solid #000000;
+  color: #000000;
+  width: 30vw;
+  border-radius: 10px;
+  height: 5vw;
+  font-size: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-icones:hover {
+  background-color: #E65353;
+}
+
+.sobre-nos {
+  display: flex;
+  background-color: rgb(255, 168, 168, 0.7);
+
+}
+
+/* footer */
+footer {
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgba(255, 230, 230, 0.8);
+}
+
+.redes img {
+  align-items: center;
+  height: 10%;
+  width: 10%;
+}
+
+.redes {
+  padding-left: 6%;
+  width: 30%;
+}
+
+form {
+  width: 40%;
+  padding: 1em;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 1em;
+}
+
+form div+div {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 3em;
+}
+
+.button {
+  background-color: rgb(255, 168, 168, 0.8);
+  border: 1px solid #401717;
+  font-weight: bold;
+  width: 20%;
+  border-radius: 10px;
+  height: 40%;
+}
+
+.button:hover {
+  background-color: #E65353;
+}
+
+.divlogofooter {
+  width: 50%;
+  text-align: center;
+}
+
+/* Responsividade */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+  /* header */
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    background-color: rgba(255, 230, 230, 0.5);
+  }
+
+  .divlogo {
+    display: none;
+  }
+
+  .navum {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .item,
+  .botao-login {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size: 70%;
+  }
+
+  .login {
+    width: 100%;
+    font-weight: bold;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* main  */
+  .conteudo {
+    width: 100%;
+
+
+  }
+
+
+  .texto-inicial h1 {
+    font-size: 5rem;
+
+  }
+
+  .texto-inicial h3 {
+    font-size: 1.5rem;
+  }
+
+  .carros-vantagens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao-icones {
+    width: 50%;
+    font-size: 6vw;
+  }
+
+  /* footer */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redes {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+
+  .button {
+    width: 102%
+  }
+
+  .divlogofooter {
+    padding-top: 4%;
+  }
+}
