@@ -1,7 +1,7 @@
 # Projeto em grupo
 Integrantes:
 Lucas Magalhães Pacheco
-Nicole Prim
+Nicole Prim a mais linda
 Raquel Baptista Burger
 
 ## Empresa Escolhida
